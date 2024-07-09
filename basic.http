@@ -1,0 +1,16 @@
+GET http://localhost:2527/industries
+1
+###########
+GET http://localhost:2527/particular/3
+
+##########
+DELETE http://localhost:2527/remove/3
+
+##### Get all values
+GET http://localhost:2527/
+
+##### Get a specific value
+GET http://localhost:2527/getOne/4
+
+##### Update the Balance
+PUT http://localhost:2527/update
